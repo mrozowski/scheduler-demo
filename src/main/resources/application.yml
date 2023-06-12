@@ -1,0 +1,10 @@
+scheduler:
+  jobs:
+    - cron: '0/5 * * * * ?' # Run every 5 seconds
+      job-priority: 3
+      group: 'priorityScheduler'
+      name: 'scheduler #1 - 5s'
+    - cron: '0/10 * * * * ?' # Run every 10 seconds
+      job-priority: 1
+      group: 'defaultScheduler'
+      name: 'scheduler #2 - 10s'
