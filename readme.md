@@ -4,7 +4,7 @@ Simple usage of quartz to create scheduled job from configuration.
 
 It can be used as a template to implement scheduled jobs in your project.
 
-In 'application.yaml' file can add and configure multiple jobs
+In `application.yaml` file can add and configure multiple jobs
 
 ```yaml
 scheduler:
